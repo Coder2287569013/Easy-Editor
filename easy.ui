@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>802</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Easy Editor v1.0</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout" stretch="1,4">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="folder_btn">
+       <property name="text">
+        <string>Папка</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QListWidget" name="listOfImage"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout_2" stretch="19,1">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>img_lbl</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="left_btn">
+         <property name="text">
+          <string>Ліворуч</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="right_btn">
+         <property name="text">
+          <string>Праворуч</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="mirror_btn">
+         <property name="text">
+          <string>Дзеркало</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="sharp_btn">
+         <property name="text">
+          <string>РІзкість</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="baw_btn">
+         <property name="text">
+          <string>Ч/Б</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
